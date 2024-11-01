@@ -1,0 +1,246 @@
+.xdata-widget {
+  width: 1100px;
+  margin: 0px;
+  padding: 10px;
+  background: #EEEEEE;
+  border: 1px solid #dedbd1;
+  margin-bottom: 15px;
+	border-right-style: solid;
+	border-right-width: .25px;
+}
+
+.xdata-widget a {
+  color: #222;
+  text-decoration: none;
+	border-right-style: solid;
+	border-right-width: .25px;
+}
+
+.xdata-widget a:hover {
+  color: #009;
+  text-decoration: underline;
+	border-right-style: solid;
+	border-right-width: .25px;
+}
+	
+.tabnav li {
+  display: inline;
+  list-style: none;
+  padding-right: 5px;
+	border-right-style: solid;
+	border-right-width: .25px;
+}
+	
+.tabnav li a {
+  text-decoration: none;
+   background: #DDDDDD; 
+  text-transform: uppercase;
+  color: #222;
+  font-weight: bold;
+  padding: 4px 6px;
+  outline: none;
+	border-top: 1px solid #a9a9a9;
+	border-left: 1px solid #a9a9a9;
+	border-right: 1px solid #a7a7a7;
+}
+
+.tabdiv.ui-tabs-panel 
+{
+	border-top: 1px solid #999999;
+	border-left: 1px solid #999999; 	
+	border-bottom: 1px solid #999999;
+	border-right: .25px solid #999999;
+}
+		
+.tabnav li a:hover, .tabnav li a:active, .tabnav li.ui-tabs-selected a {
+  background: #FFFFFF;
+  color: #222;
+  text-decoration: none;
+	border-top: 1px solid #999999;
+	border-left: 1px solid #999999;
+	border-right: 1px solid #999999;
+}
+		
+.tabdiv {
+  margin-top: 2px;
+  background: #fff;
+  border: 1px solid #dedbd1;
+  padding: 5px;
+	border-right-style: solid;
+	border-right-width: .25px;
+}
+	
+.tabdiv li {
+  margin-left: 20px;
+	border-right-style: solid;
+	border-right-width: .25px;
+}
+
+.ui-tabs-hide {
+  display: none;
+	border-right-style: solid;
+	border-right-width: .25px;
+}
+#progressDiv
+{
+	display: none;
+	z-index: auto;
+	top: 200px;
+	border-right-style: solid;
+	border-right-width: .25px;
+}
+
+#progressDiv img 
+{
+	top: 330px;
+	float: left;
+	z-index: 1;
+	position: fixed;
+	left: 600px;
+	border-right-style: solid;
+	border-right-width: .25px;
+}
+#colorSelector 
+{
+	position: relative;
+	top: -27px;
+	left: 650px;
+	border: 1px groove gray;
+	border-right-style: solid;
+	border-right-width: .25px;
+}
+
+#xmlInserts input
+{
+	background-color: #FFF;
+	border-right-style: solid;
+	border-right-width: .25px;
+}
+
+
+
+#insertFunction 
+{
+	background-color: #DDDDEE;
+	border-right-style: solid;
+	border-right-width: .25px;
+}
+#xmlInserts a img 
+{
+	position: relative;
+	top:  5px;
+	border-right-style: solid;
+	border-right-width: .25px;
+}
+
+#imageType 
+{
+	position: absolute;
+	top: 44px;
+	left: 30px;
+	border-right-style: solid;
+	border-right-width: .25px;
+}
+
+#viewForm h2 
+{
+	position: absolute;
+	top: 40px;
+	left: 95px;
+	border-right-style: solid;
+	border-right-width: .25px;
+}
+
+#dsTitle 
+{
+	position: absolute;
+	top: 100px;
+	left: 160px;
+	font-weight: bold;
+	font-style: italic;
+	color: gray;
+	border-right-style: solid;
+	border-right-width: .25px;
+}
+
+#dsURLHostDB 
+{
+	top: 125px;
+	position: absolute;
+	left: 210px;
+	text-decoration: underline;
+	border-right-style: solid;
+	border-right-width: .25px;
+}
+
+#dsUsername 
+{
+	position: absolute;
+	top: 98px;
+	left: 400px;
+	font-weight: bold;
+	border-right-style: solid;
+	border-right-width: .25px;
+}
+#panelTitle
+{
+	font-weight: bold;
+	background-color: #f3f3f3;
+	width: 250px;
+	height: 20px;
+	text-align: center;
+	border-right-style: solid;
+	border-right-width: .25px;
+}
+#panelBody
+{
+	overflow: hidden;
+	border-right-style: solid;
+	border-right-width: .25px;
+}
+
+#panelThree 
+{
+	height: 900px;
+	border-right-style: solid;
+	border-right-width: .25px;
+}
+#panelDependencies
+{
+
+	position: absolute;
+	top: 175px;
+	left: 20px;
+	border-right-style: solid;
+	border-right-width: .25px;
+}
+#panelPerformance
+{
+	position: absolute;
+	top: 175px;
+	left: 300px;
+	border-right-style: solid;
+	border-right-width: .25px;
+}
+#panelSchedules
+{
+	position: absolute;
+	top:  175px;
+	left: 580px;
+	border-right-style: solid;
+	border-right-width: .25px;
+}
+#panelLogging
+{
+	position: absolute;
+	top: 175px;
+	left: 850px;
+	border-right-style: solid;
+	border-right-width: .25px;
+}
+
+#querySchedule 
+{
+	border-right-style: solid;
+	border: 1px outset #eaeaea;
+}

@@ -1,0 +1,202 @@
+/* @override http://buildautomate.com/xdatademo/wp-content/plugins/xdata-toolkit/css/styles.css */
+
+#RegisterDataSourcePanel 
+{
+	width: 300px;
+	height: 200px;
+	padding: 4px;
+	background-color: #f1f1f1;
+	border: 1px solid #bebdbe;	
+}
+
+#CreateQueryInterfacePanel 
+{
+	width: 300px;
+	height: 200px;
+	padding: 4px;
+	background-color: #f1f1f1;
+	position: absolute;
+	top: 56px;
+	left: 340px;
+	border: 1px solid #bebdbe;	
+}
+#CreateTransformStudioPanel
+{
+	width: 300px;
+	height: 200px;
+	padding: 4px;
+	background-color: #f1f1f1;
+	position: absolute;
+	top: 56px;
+	left: 680px;
+	border: 1px solid #bebdbe;	
+}
+#CreateQuerySchedulePanel
+{
+	width: 300px;
+	height: 200px;
+	padding: 4px;
+	background-color: #f1f1f1;
+	position: absolute;
+	top: 295px;	
+	border: 1px solid #bebdbe;	
+}
+#EmbedQueryInterfacePanel 
+{
+	width: 300px;
+	height: 200px;
+	padding: 4px;
+	background-color: #f1f1f1;
+	position: absolute;
+	top: 295px;
+	left: 340px;
+	border: 1px solid #bebdbe;	
+}
+#ViewEmbeddedContentPanel
+{
+	width: 300px;
+	height: 200px;
+	padding: 4px;
+	background-color: #f1f1f1;
+	position: absolute;
+	top: 295px;
+	left: 680px;	
+	border: 1px solid #bebdbe;	
+}
+#CreditsPanel
+{
+	width:963px;
+	height: 115px;
+	padding: 10px;
+	background-color: #f1f1f1;;
+	position: absolute;
+	top: 525px;
+	border: 1px solid #bebdbe;
+}
+
+#numberLabel 
+{
+	font-size: 25px;
+	float: left;
+	z-index: 3;
+	left: -15px;
+	position: relative;
+	bottom: 15px;
+	background-color: #ebebeb;
+	padding: 5px;
+	border: 1.5px solid #c5c5c5;
+	border-bottom-width: 1px;
+	border-bottom-style: outset;
+	border-right-style: outset;
+}
+.overviewPanelText
+{
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: justify;
+}
+.arrowPanel
+{
+	background-image: ../images/arrowright.png;
+	z-index: 6;
+}
+#firstArrow
+{
+	position: absolute;
+	top: 140px;
+	left: 310px;
+}
+#secondArrow
+{
+	position: absolute;
+	top: 140px;
+	left: 650px;
+}
+#thirdArrow
+{
+	position: absolute;
+	top: 375px;
+	left: 310px;
+}
+#fourthArrow
+{
+	position: absolute;
+	top: 375px;
+	left: 650px;
+}
+.panelTitle 
+{
+	font-weight: bold;
+	font-size: 14px;
+	font-style: italic;
+	float: none;
+	color: navy;
+	background-color: #e7e7e7;
+	padding: 3px;
+}
+
+#qsTitle h2 
+{
+	float: none;
+	position: absolute;
+	top: 5px;
+	left: 65px;
+}
+#functionTitleDiv 
+{
+	padding: 10px;
+}
+
+#CreditsText 
+{
+	float: none;
+	position: absolute;
+	padding-right: 50px;
+	top: 8px;
+	left: 250px;
+	font-weight: bold;
+	color: #868686;
+}
+#rightLineDown
+{
+	width: 1px;
+	height: 10px;
+	background-color: #DDDDDD;
+	position: absolute;
+	top: 266px;
+	left: 827px;
+	border: 1px solid #bebdbe;
+	z-index: 7;
+}
+#lineAcross
+{
+	width: 688px;
+	height: 1px;
+	background-color: #DDDDDD;
+	position: absolute;
+	top: 276px;
+	left: 140px;
+	border: 1px solid #bebdbe;
+	z-index: 6;	
+}
+#leftLineDown
+{
+	width: 1px;
+	height: 15px;
+	background-color: #DDDDDD;
+	position: absolute;
+	top: 276px;
+	left: 140px;
+	border: 1px solid #bebdbe;
+	z-index: 7;
+}
+#arrowDown
+{
+	width: 1px;
+	height: 15px;
+	position: absolute;
+	top: 286px;
+	left: 134px;
+	z-index: 8;
+}
+.highlight:hover,focus { background: #b7b7f0; }

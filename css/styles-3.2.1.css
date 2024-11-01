@@ -1,0 +1,489 @@
+#tabvanilla.xdata-widget
+{
+	position: relative;
+	top: 40px;
+  width: 1100px;
+  margin: 0px;
+  padding: 10px;
+  background: #EEEEEE;
+  border: 1px solid #dedbd1;
+  margin-bottom: 15px;
+	border-right-style: solid;
+	border-right-width: .25px;	
+}
+.ui-tabs-panel 
+{
+
+	position: relative;
+}
+#RegisterDataSourcePanel 
+{
+	width: 300px;
+	height: 200px;
+	padding: 4px;
+	background-color: #f1f1f1;
+	border: 1px solid #bebdbe;	
+	top: 110px;
+	position: absolute;
+}
+
+#CreateQueryInterfacePanel 
+{
+	width: 300px;
+	height: 200px;
+	padding: 4px;
+	background-color: #f1f1f1;
+	position: absolute;
+	top: 110px;
+	left: 500px;
+	border: 1px solid #bebdbe;	
+}
+#CreateTransformStudioPanel
+{
+	width: 300px;
+	height: 200px;
+	padding: 4px;
+	background-color: #f1f1f1;
+	position: absolute;
+	top: 110px;
+	left: 840px;
+	border: 1px solid #bebdbe;	
+}
+#CreateQuerySchedulePanel
+{
+	width: 300px;
+	height: 200px;
+	padding: 4px;
+	background-color: #f1f1f1;
+	position: absolute;
+	top: 350px;	
+	border: 1px solid #bebdbe;	
+}
+#EmbedQueryInterfacePanel 
+{
+	width: 300px;
+	height: 200px;
+	padding: 4px;
+	background-color: #f1f1f1;
+	position: absolute;
+	top: 350px;
+	left: 500px;
+	border: 1px solid #bebdbe;	
+}
+#ViewEmbeddedContentPanel
+{
+	width: 300px;
+	height: 200px;
+	padding: 4px;
+	background-color: #f1f1f1;
+	position: absolute;
+	top: 350px;
+	left: 840px;	
+	border: 1px solid #bebdbe;	
+}
+#CreditsPanel
+{
+	width:963px;
+	height: 115px;
+	padding: 10px;
+	background-color: #f1f1f1;;
+	position: absolute;
+	top: 575px;
+	border: 1px solid #bebdbe;
+}
+
+#numberLabel 
+{
+	font-size: 25px;
+	float: left;
+	z-index: 3;
+	left: -15px;
+	position: relative;
+	bottom: 15px;
+	background-color: #ebebeb;
+	padding: 5px;
+	border: 1.5px solid #c5c5c5;
+	border-bottom-width: 1px;
+	border-bottom-style: outset;
+	border-right-style: outset;
+}
+.overviewPanelText
+{
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: justify;
+}
+.arrowPanel
+{
+	background-image: ../images/arrowright.png;
+	z-index: 6;
+}
+#firstArrow
+{
+	position: absolute;
+	top: 190px;
+	left: 475px;
+}
+#secondArrow
+{
+	position: absolute;
+	top: 190px;
+	left: 810px;
+}
+#thirdArrow
+{
+	position: absolute;
+	top: 425px;
+	left: 475px;
+}
+#fourthArrow
+{
+	position: absolute;
+	top: 425px;
+	left: 810px;
+}
+
+
+#qsTitle h2 
+{
+	float: none;
+	position: absolute;
+	top: 35px;
+	left: 225px;
+}
+#functionTitleDiv img
+{
+	float: none;
+	position: absolute;
+	padding: 10px;
+	top: 35px;
+	
+}
+
+#CreditsText 
+{
+	float: none;
+	position: absolute;
+	padding-right: 50px;
+	top: 8px;
+	left: 250px;
+	font-weight: bold;
+	color: #868686;
+}
+#rightLineDown
+{
+	width: 1px;
+	height: 10px;
+	background-color: #DDDDDD;
+	position: absolute;
+	top: 320px;
+	left: 975px;
+	border: 1px solid #bebdbe;
+	z-index: 7;
+}
+#lineAcross
+{
+	width: 688px;
+	height: 1px;
+	background-color: #DDDDDD;
+	position: absolute;
+	top: 330px;
+	left: 288px;
+	border: 1px solid #bebdbe;
+	z-index: 6;	
+}
+#leftLineDown
+{
+	width: 1px;
+	height: 15px;
+	background-color: #DDDDDD;
+	position: absolute;
+	top: 330px;
+	left: 288px;
+	border: 1px solid #bebdbe;
+	z-index: 7;
+}
+#arrowDown
+{
+	width: 1px;
+	height: 15px;
+	position: absolute;
+	top: 340px;
+	left: 282px;
+	z-index: 8;
+}
+.highlight:hover,focus { background: #b7b7f0; }
+
+
+.xdata-widget a {
+  color: #222;
+  text-decoration: none;
+}
+
+.xdata-widget a:hover {
+  color: #009;
+  text-decoration: underline;
+
+}
+	
+.tabnav li {
+  display: inline;
+  list-style: none;
+  padding-right: 5px;
+	top: 1px;
+	position: relative;  
+}
+	
+.tabnav li a {
+  text-decoration: none;
+   background: #DDDDDD; 
+  text-transform: uppercase;
+  color: #222;
+  font-weight: bold;
+  padding: 4px 6px;
+  outline: none;
+	border-top: 1px solid #a9a9a9;
+	border-left: 1px solid #a9a9a9;
+	border-right: 1px solid #a7a7a7;
+}
+
+.tabdiv.ui-tabs-panel 
+{
+	border-top: 1px solid #999999;
+	border-left: 1px solid #999999; 	
+	border-bottom: 1px solid #999999;
+	border-right: .25px solid #999999;
+}
+		
+.tabnav li a:hover, .tabnav li a:active, .tabnav li.ui-tabs-selected a {
+  background: #FFFFFF;
+  color: #222;
+  text-decoration: none;
+	border-top: 1px solid #999999;
+	border-left: 1px solid #999999;
+	border-right: 1px solid #999999;
+	z-index: 4;
+	top: -1px;
+	position: relative;
+
+}
+		
+.tabdiv {
+  margin-top: 2px;
+  background: #fff;
+  border: 1px solid #dedbd1;
+  padding: 5px;
+
+}
+	
+.tabdiv li {
+  margin-left: 20px;
+
+}
+
+.ui-tabs-hide {
+  display: none;
+
+}
+#progressDiv
+{
+	display: none;
+	z-index: auto;
+	top: 200px;
+	border-right-style: solid;
+	border-right-width: .25px;
+}
+
+#progressDiv img 
+{
+	top: 330px;
+	float: left;
+	z-index: 1;
+	position: fixed;
+	left: 600px;
+	border-right-style: solid;
+	border-right-width: .25px;
+}
+#colorSelector 
+{
+	position: relative;
+	top: -27px;
+	left: 750px;
+	border: 1px groove gray;
+	border-right-style: solid;
+	border-right-width: .25px;
+}
+#parametersDiv
+{
+	position: absolute;
+	width: 290px;
+	border: 2px solid #CCC;
+	left: 420px;
+	top: 33px;
+	visibility: hidden;
+	z-index: 5;
+	background-color: white;
+	padding: 10px;
+}
+#xmlInserts input
+{
+	background-color: #FFF;
+	border-right-style: solid;
+	border-right-width: .25px;
+}
+
+
+
+#insertFunction 
+{
+	background-color: #DDDDEE;
+	border-right-style: solid;
+	border-right-width: .25px;
+}
+#xmlInserts a img 
+{
+	position: relative;
+	top:  5px;
+	border-right-style: solid;
+	border-right-width: .25px;
+}
+
+#imageType 
+{
+	position: absolute;
+	top: 44px;
+	left: 30px;
+	border-right-style: solid;
+	border-right-width: .25px;
+}
+
+#viewForm h2 
+{
+	position: absolute;
+	top: 40px;
+	left: 95px;
+	border-right-style: solid;
+	border-right-width: .25px;
+}
+
+#dsTitle 
+{
+	position: absolute;
+	top: 100px;
+	left: 160px;
+	font-weight: bold;
+	font-style: italic;
+	color: gray;
+	border-right-style: solid;
+	border-right-width: .25px;
+}
+
+#dsURLHostDB 
+{
+	top: 125px;
+	position: absolute;
+	left: 210px;
+	text-decoration: underline;
+	border-right-style: solid;
+	border-right-width: .25px;
+}
+
+#dsUsername 
+{
+	position: absolute;
+	top: 98px;
+	left: 400px;
+	font-weight: bold;
+	border-right-style: solid;
+	border-right-width: .25px;
+}
+#panelTitle
+{
+	font-weight: bold;
+	background-color: #f3f3f3;
+	width: 250px;
+	height: 20px;
+	text-align: center;
+	border-right-style: solid;
+	border-right-width: .25px;
+}
+#panelBody
+{
+	overflow: hidden;
+	border-right-style: solid;
+	border-right-width: .25px;
+}
+
+#panelThree 
+{
+	height: 900px;
+	border-right-style: solid;
+	border-right-width: .25px;
+}
+#panelDependencies
+{
+
+	position: absolute;
+	top: 175px;
+	left: 20px;
+	border-right-style: solid;
+	border-right-width: .25px;
+}
+#panelPerformance
+{
+	position: absolute;
+	top: 175px;
+	left: 300px;
+	border-right-style: solid;
+	border-right-width: .25px;
+}
+#panelSchedules
+{
+	position: absolute;
+	top:  175px;
+	left: 580px;
+	border-right-style: solid;
+	border-right-width: .25px;
+}
+#panelLogging
+{
+	position: absolute;
+	top: 175px;
+	left: 850px;
+	border-right-style: solid;
+	border-right-width: .25px;
+}
+
+#querySchedule 
+{
+	border-right-style: solid;
+	border: 1px outset #eaeaea;
+}
+#pocs
+{
+
+	position: relative;
+	padding-left: 50px;
+	direction: ltr;
+}
+#pocs ul  
+{
+	font-weight: bold;
+	text-decoration: underline;
+	list-style-type: circle;
+	float: none;
+}
+#vjbImage 
+{
+	float: right;
+	padding-right: 300px;
+	z-index: 12;
+
+}
+
+#limitationsText 
+{
+	width:500px;
+	padding: 20px;
+	text-align: justify;
+}

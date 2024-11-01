@@ -1,0 +1,249 @@
+.xdata-widget {
+  width: 1100px;
+  margin: 0px;
+  padding: 10px;
+  background: #EEEEEE;
+  border: 1px solid #dedbd1;
+  margin-bottom: 15px;
+	border-right-style: solid;
+	border-right-width: .25px;
+}
+
+.xdata-widget a {
+  color: #222;
+  text-decoration: none;
+	border-right-style: solid;
+	border-right-width: .25px;
+}
+
+.xdata-widget a:hover {
+  color: #009;
+  text-decoration: underline;
+	border-right-style: solid;
+	border-right-width: .25px;
+}
+	
+.tabnav li {
+  display: inline;
+  list-style: none;
+  padding-right: 5px;
+	border-right-style: solid;
+	border-right-width: .25px;
+}
+	
+.tabnav li a {
+  text-decoration: none;
+   background: #DDDDDD; 
+  text-transform: uppercase;
+  color: #222;
+  font-weight: bold;
+  padding: 4px 6px;
+  outline: none;
+	border-top: 1px solid #a9a9a9;
+	border-left: 1px solid #a9a9a9;
+	border-right: 1px solid #a7a7a7;
+}
+
+.tabdiv.ui-tabs-panel 
+{
+	border-top: 1px solid #999999;
+	border-left: 1px solid #999999; 	
+	border-bottom: 1px solid #999999;
+	border-right: .25px solid #999999;
+}
+		
+.tabnav li a:hover, .tabnav li a:active, .tabnav li.ui-tabs-selected a {
+  background: #FFFFFF;
+  color: #222;
+  text-decoration: none;
+	border-top: 1px solid #999999;
+	border-left: 1px solid #999999;
+	border-right: 1px solid #999999;
+}
+		
+.tabdiv {
+  margin-top: 2px;
+  background: #fff;
+  border: 1px solid #dedbd1;
+  padding: 5px;
+	border-right-style: solid;
+	border-right-width: .25px;
+}
+	
+.tabdiv li {
+  list-style-image: url("star.png");
+  margin-left: 20px;
+	border-right-style: solid;
+	border-right-width: .25px;
+}
+
+.ui-tabs-hide {
+  display: none;
+	border-right-style: solid;
+	border-right-width: .25px;
+}
+#progressDiv
+{
+	display: none;
+	z-index: auto;
+	top: 200px;
+	border-right-style: solid;
+	border-right-width: .25px;
+}
+
+#progressDiv img 
+{
+	top: 330px;
+	float: left;
+	z-index: 1;
+	position: fixed;
+	left: 600px;
+	border-right-style: solid;
+	border-right-width: .25px;
+}
+#colorSelector 
+{
+	position: relative;
+	top: -27px;
+	left: 650px;
+	border: 1px groove gray;
+	border-right-style: solid;
+	border-right-width: .25px;
+}
+
+#xmlInserts input
+{
+	background-color: #FFF;
+	border-right-style: solid;
+	border-right-width: .25px;
+}
+
+
+
+#insertFunction 
+{
+	background-color: #DDDDEE;
+	border-right-style: solid;
+	border-right-width: .25px;
+}
+#xmlInserts a img 
+{
+	position: relative;
+	top:  5px;
+	border-right-style: solid;
+	border-right-width: .25px;
+}
+
+#imageType 
+{
+	position: absolute;
+	top: 124px;
+	border-right-style: solid;
+	border-right-width: .25px;
+}
+
+#viewForm h2 
+{
+	position: absolute;
+	left: 250px;
+	border-right-style: solid;
+	border-right-width: .25px;
+}
+
+#dsTitle 
+{
+	position: absolute;
+	top: 165px;
+	left: 270px;
+	font-weight: bold;
+	font-style: italic;
+	color: gray;
+	border-right-style: solid;
+	border-right-width: .25px;
+}
+
+#dsURLHostDB 
+{
+	top: 185px;
+	position: absolute;
+	left: 350px;
+	text-decoration: underline;
+	border-right-style: solid;
+	border-right-width: .25px;
+}
+
+#dsUsername 
+{
+	position: absolute;
+	top: 165px;
+	left: 500px;
+	font-weight: bold;
+	border-right-style: solid;
+	border-right-width: .25px;
+}
+#panelTitle
+{
+	font-weight: bold;
+	background-color: #f3f3f3;
+	width: 250px;
+	height: 20px;
+	text-align: center;
+	border-right-style: solid;
+	border-right-width: .25px;
+}
+#panelBody
+{
+	overflow: hidden;
+	border-right-style: solid;
+	border-right-width: .25px;
+}
+
+#panelThree 
+{
+	height: 100%;
+	border-right-style: solid;
+	border-right-width: .25px;
+}
+#panelDependencies
+{
+	height: 100%;
+	position: absolute;
+	top: 250px;
+	left: 190px;
+	border-right-style: solid;
+	border-right-width: .25px;
+}
+#panelPerformance
+{
+  	height: 100%;
+	position: absolute;
+	top: 250px;
+	left: 460px;
+	border-right-style: solid;
+	border-right-width: .25px;
+}
+#panelSchedules
+{
+  	height: 100%;
+	position: absolute;
+	top:  250px;
+	left: 730px;
+	border-right-style: solid;
+	border-right-width: .25px;
+}
+#panelLogging
+{
+  	height: 100%;
+	position: absolute;
+	top: 250px;
+	left: 1000px;
+	border-right-style: solid;
+	border-right-width: .25px;
+}
+
+#querySchedule 
+{
+  	height: 100%;
+	border-right-style: solid;
+	border: 1px outset #eaeaea;
+}
